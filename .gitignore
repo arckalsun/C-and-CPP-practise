@@ -5,7 +5,7 @@
 *.obj
 
 # backup files
-*.~
+*~
 
 # Precompiled Headers
 *.gch
