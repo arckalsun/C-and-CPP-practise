@@ -1,0 +1,17 @@
+#include<iostream>
+#include<vector>
+#include<iterator>
+using std::cout;
+using std::endl;
+
+int main()
+{
+  int arr[5]={5,4,3,2,1};
+  int *p = arr;
+  for (int *b = begin(arr),*e = end(arr); b != e; ++b)
+    *b = 0;
+  for (auto i : arr)
+    cout << i << " ";
+  cout << endl;
+  return 0;
+}
